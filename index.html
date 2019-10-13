@@ -1,0 +1,115 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<title>Page Title</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link type="text/css" rel="stylesheet" href="css/lightbox.css">
+</head>
+
+<body>
+	<nav>
+		<div id="hamburger"><i class="fas fa-bars"></i></div>
+		<ul>
+			<li id="homeli"><a href="#">Home</a></li>
+			<li id="aboutli"><a href="#">About</a></li>
+			<li id="fotosli"><a href="#">Foto's</a></li>
+			<li id="contactli"><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<main>
+		<div id="holdder">
+			<div class="floatleft" id="home">
+				<div id="box">
+					<h1>examen scripting</h1>
+					<h2>januari 2019</h2>
+					<button id="changebg">Change background</button>
+				</div>
+			</div>
+			<div class="floatleft" id="about">
+				<h1>een woordtje over ons</h1>
+				<div id="abouttop">
+					<button id="changestyle" class="aboutbtns">GET DIFFERENT STYLE</button>
+				</div>
+				<div id="aboutbottom">
+					<div class="col">
+						<h2>Let my eyes roll...</h2>
+						<p>gebruik jouw toetsenbord om mijn ogen te laten rollen! </p>
+						<div id="face">
+							<div id="eyes">
+								<div class="eye">
+									<div class="eyeball"></div>
+								</div>
+								<div class="eye">
+									<div class="eyeball"></div>
+								</div>
+							</div>
+							<div id="nose"><i class="fas fa-caret-down"></i></div>
+							<div id="mouth"><i class="fas fa-arrows-alt-h"></i></div>
+						</div>
+					</div>
+					<div class="col">
+						<h2>Time is money...</h2>
+						<p id="textdate"></p>
+						<div id="clock">
+							<h3 id="time"></h3>
+						</div>
+						<p>hieronder vind je een knop terug warmee je de timer kan starten:</p>
+						<div id="timer">
+							<button id="timerbtn" class="aboutbtns">START TIMER</button>
+							<p id="timertext"></p>
+						</div>
+
+					</div>
+					<div class="col">
+						<h2>De stelling van pythagoras...</h2>
+						<p>Geef hieronder de lengte in van de 2"rechthoek-zijden", en bereken de lengte van de schuine zijde:</p>
+						<div id="pyth">
+							<img src="img/pyth.jpg" style="width:250px;" alt="">
+						</div>
+						<p>A: <input id="A" placeholder=""></p>
+						<p>B: <input id="B" placeholder=""></p>
+						<button id="pythbtn" class="aboutbtns">BEREKEN</button>
+						<h2 id="C"></h2>
+					</div>
+				</div>
+			</div>
+			<div class="floatleft" id="fotos">
+				<h1>enkele sfeerbelden</h1>
+				<div id="photowrap">
+					<p id="photosrc"></p>
+				</div>
+			</div>
+			<div class="floatleft" id="contact">
+				<div id="overlay">
+					<div id="box2">OPGELET, vul alle velden in aub!</div>
+				</div>
+				<h1>Keep in touch...</h1>
+				<form>
+					<label for="name">Naam: <span style="color:red">*</span></label>
+					<input type="text" class="imp" id="name" name="name" placeholder="uw naam..">
+					<label for="name">E-mail: <span style="color:red">*</span></label>
+					<input type="text" class="imp" id="email" name="email" placeholder="uw email..">
+					<label for="name">Boodschap:</label>
+					<input type="text" id="message" name="message" placeholder="uw vraag..">
+
+				</form>
+				<button id="contactbtn">verzenden</button>
+
+			</div>
+		</div>
+
+	</main>
+	<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
