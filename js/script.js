@@ -47,10 +47,10 @@
       var background = true;
       $('#changebg').click(function() {
         if (background == true) {
-          $("#home").css("background-image", "url('../img/bgtwo.jpg')");
+          $("#home").css("background-image", "url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260')");
           background = false;
         } else if (background == false) {
-          $("#home").css("background-image", "url('../img/bgone.jpg')");
+          $("#home").css("background-image", "url('https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')");
           background = true;
         }
       });
