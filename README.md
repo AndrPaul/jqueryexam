@@ -6,6 +6,7 @@
 
  [Live demo](https://andrpaul.github.io/jqueryexam) 
 
+## Description
 
 This repository contains a basic usage of jQuery in a project.
 I have done this when I was still a web design student in 2019.
